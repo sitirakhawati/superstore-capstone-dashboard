@@ -3,8 +3,11 @@
 A Power BI dashboard (with one Python visual) and a matching Excel dashboard analysing sales, profit, discounting and delivery performance for a retail superstore, 2014 to 2017.
 
 **Author:** Siti Rakhawati
+
 **Tools:** Power BI Desktop (Power Query, DAX), Python (matplotlib) for one custom visual, Excel (Power Query, PivotTables, slicers)
+
 **Data:** [Superstore Dataset (Kaggle, vivek468/superstore-dataset-final)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final), 9,994 order lines, 21 columns
+
 
 ---
 
@@ -67,7 +70,7 @@ To show the same analysis can be done without Power BI, I rebuilt the dashboard 
 
 ![Excel dashboard](images/09_excel_dashboard.png)
 
-Files: `excel/Superstore Excel Dashboard.xlsx` (interactive) and `excel/Superstore Excel Dashboard.pdf`.
+Files: `excel/Excel Dashboard.xlsx` (interactive) and `excel/Excel Dashboard.pdf`.
 
 **How it was built**
 - **Cleaning (Power Query):** loaded the CSV with Windows-1252 encoding, set the date columns to Date using the en-US locale (month/day/year), trimmed and cleaned text, and loaded to an Excel Table named `Superstore`.
@@ -118,7 +121,7 @@ The dataset has no promised delivery date, so "late" is defined by delivery time
 ```
 README.md
 dashboard/   Rebuild Capstone.pbix, Rebuild Capstone.pdf  (Power BI)
-excel/       Superstore Excel Dashboard.xlsx, Superstore Excel Dashboard.pdf  (Excel)
+excel/       Excel Dashboard.xlsx, Excel Dashboard.pdf  (Excel)
 images/      one screenshot per dashboard page
 ```
 
